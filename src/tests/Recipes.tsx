@@ -15,7 +15,7 @@ export default class Recipes {
         };
     }
 
-    static createRecipesList(length: number = 2): Recipe[] {
+    static createRecipesList(length = 2): Recipe[] {
         return Array.from({ length }, () => this.createRecipe());
     }
 }

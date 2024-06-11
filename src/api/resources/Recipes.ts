@@ -3,7 +3,7 @@ import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe, ResponseT
 import { AxiosResponse } from 'axios';
 
 export default class Recipes extends BaseResource {
-    private resourceUrl: string = '/recipes/api';
+    private resourceUrl = '/recipes/api';
 
     async find(recipeId: string): Promise<AxiosResponse> {
         return this.axios.get(`${this.resourceUrl}/${recipeId}`);
