@@ -6,7 +6,7 @@ import { useListRecipes } from 'hooks/recipes';
 import RecipesList from './RecipesList';
 import { UseQueryResult } from '@tanstack/react-query';
 import { Recipe } from 'types/resources';
-import Factory from '../../../tests/Factory';
+import Factory from 'tests/Factory';
 
 jest.mock('hooks/recipes', () => ({
     useListRecipes: jest.fn(),

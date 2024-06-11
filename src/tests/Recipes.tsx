@@ -1,6 +1,6 @@
 import FactoryHelper from './FactoryHelper';
 import Ingredients from './Ingredients';
-import { Recipe } from '../types/resources';
+import { Recipe } from 'types/resources';
 
 export default class Recipes {
     static createRecipe(extra: Partial<Recipe> = {}): Recipe {

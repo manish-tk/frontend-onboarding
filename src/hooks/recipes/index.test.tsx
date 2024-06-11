@@ -4,7 +4,7 @@ import { createRecipe, deleteRecipe, findRecipe, getRecipes, updateRecipe } from
 import { useCreateRecipe, useDeleteRecipe, useFindRecipe, useListRecipes, useUpdateRecipe } from 'hooks/recipes';
 import { FC, ReactNode } from 'react';
 import Factory from 'tests/Factory';
-import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe } from '../../types/api';
+import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe } from 'types/api';
 
 jest.mock('services/recipeService');
 

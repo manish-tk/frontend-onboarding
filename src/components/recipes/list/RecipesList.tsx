@@ -1,4 +1,4 @@
-import { useListRecipes } from '../../../hooks/recipes';
+import { useListRecipes } from 'hooks/recipes';
 import React from 'react';
 import { Link } from 'react-router-dom';
 

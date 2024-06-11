@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 import { useDeleteRecipe } from 'hooks/recipes';
 import RecipesDelete from './RecipesDelete';
-import Factory from '../../../tests/Factory';
+import Factory from 'tests/Factory';
 
 jest.mock('hooks/recipes', () => ({
     useDeleteRecipe: jest.fn(),

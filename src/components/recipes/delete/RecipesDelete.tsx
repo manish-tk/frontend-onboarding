@@ -1,7 +1,7 @@
-import { Recipe } from '../../../types/resources';
+import { Recipe } from 'types/resources';
 import React, { FC } from 'react';
-import { useDeleteRecipe } from '../../../hooks/recipes';
-import { Button } from '../../../styled/UIComponents';
+import { useDeleteRecipe } from 'hooks/recipes';
+import { Button } from 'styled/UIComponents';
 import { useNavigate } from 'react-router-dom';
 
 type RecipesDeleteProps = {

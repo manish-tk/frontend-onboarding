@@ -6,8 +6,8 @@ import React from 'react';
 import { useUpdateRecipe } from 'hooks/recipes';
 import Factory from 'tests/Factory';
 import RecipesUpdate from './RecipesUpdate';
-import { RequestParamsTypeUpdateRecipe } from '../../../types/api';
-import { Recipe } from '../../../types/resources';
+import { RequestParamsTypeUpdateRecipe } from 'types/api';
+import { Recipe } from 'types/resources';
 
 jest.mock('hooks/recipes', () => ({
     useUpdateRecipe: jest.fn(),

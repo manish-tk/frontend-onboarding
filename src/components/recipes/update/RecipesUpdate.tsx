@@ -3,7 +3,7 @@ import { useUpdateRecipe } from 'hooks/recipes';
 import StringsHelper from 'helpers/StringsHelper';
 import { RequestParamsTypeUpdateRecipe } from 'types/api';
 import { Recipe } from 'types/resources';
-import RecipesDelete from '../delete/RecipesDelete';
+import RecipesDelete from 'components/recipes/delete/RecipesDelete';
 import { Container, Card, Input, Button } from 'styled/UIComponents';
 import { useNavigate } from 'react-router-dom';
 

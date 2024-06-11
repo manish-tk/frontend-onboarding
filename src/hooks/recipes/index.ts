@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { createRecipe, deleteRecipe, findRecipe, getRecipes, updateRecipe } from '../../services/recipeService';
+import { createRecipe, deleteRecipe, findRecipe, getRecipes, updateRecipe } from 'services/recipeService';
 
 export const useListRecipes = () => {
     return useQuery({

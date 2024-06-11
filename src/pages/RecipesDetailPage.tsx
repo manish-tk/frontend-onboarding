@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFindRecipe } from '../hooks/recipes';
-import RecipesUpdate from '../components/recipes/update/RecipesUpdate';
+import { useFindRecipe } from 'hooks/recipes';
+import RecipesUpdate from 'components/recipes/update/RecipesUpdate';
 
 const RecipesDetailPage: FC = () => {
     const { id } = useParams<{ id: string }>();

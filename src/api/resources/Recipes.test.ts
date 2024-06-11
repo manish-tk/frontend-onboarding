@@ -1,6 +1,6 @@
 import Recipes from './Recipes';
 import { AxiosResponse } from 'axios';
-import Factory from '../../tests/Factory';
+import Factory from 'tests/Factory';
 import axios, { AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe, ResponseTypeRecipesList } from 'types/api';
 

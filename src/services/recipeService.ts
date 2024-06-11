@@ -1,6 +1,6 @@
 import { Recipe } from 'types/resources';
 import Recipes from 'api/resources/Recipes';
-import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe } from '../types/api';
+import { RequestParamsTypeCreateRecipe, RequestParamsTypeUpdateRecipe } from 'types/api';
 
 export const findRecipe = async (recipeId: string): Promise<Recipe> => {
     const { data } = await new Recipes().find(recipeId);

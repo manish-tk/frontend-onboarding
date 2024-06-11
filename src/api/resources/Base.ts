@@ -1,4 +1,4 @@
-import Constants from '../../constants/main';
+import Constants from 'constants/main';
 import axios, { AxiosInstance } from 'axios';
 
 export default class BaseResource {

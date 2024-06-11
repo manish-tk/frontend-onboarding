@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { FormEvent, FC } from 'react';
-import { useCreateRecipe } from '../../../hooks/recipes';
+import { useCreateRecipe } from 'hooks/recipes';
 import { RequestParamsTypeCreateRecipe } from 'types/api';
 import StringsHelper from 'helpers/StringsHelper';
 import { Button, Card, Container, Input } from 'styled/UIComponents';
